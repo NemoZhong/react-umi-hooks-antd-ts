@@ -50,7 +50,7 @@ export default defineConfig({
     'bdw-config':'window.bdwConfig',
     BMap:'BMap'
   },
-  scripts:[{src:`${publicPath}bdw_config.js`}],
+  // scripts:[{src:`${publicPath}bdw_config.js`}],
   extraPostCSSPlugins: [
     require('postcss-flexbugs-fixes'),
     require('postcss-px-to-viewport')({
